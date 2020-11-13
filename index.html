@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+
+    <link rel="shortcut icon" href="/img/favicon/favicon.png" type="image/png">
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="main-navigation">
+            <a href="/">
+                <span class="logo">ЕН.</span>
+            </a>
+
+            <ul class="main-navigation__list main-navigation__list_hidden list">
+                <li class="main-navigation__item">
+                    <a href="#">Обо мне</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Образование</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Навыки</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Портфолио</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Клиенты</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+
+            <div class="menu">
+                <span class="menu__element menu__element_top"></span>
+                <span class="menu__element menu__element_middle"></span>
+                <span class="menu__element menu__element_bottom"></span>
+            </div>
+        </nav>
+
+        <section class="promo">
+            <div class="container promo__wrap">
+                <h1 class="promo__title">Никита Ефремов</h1>
+                <p class="promo__subtitle">Web-разработчик</p>
+                <a class="button button_secondary promo__button" href="#">Нанять</a>
+            </div>
+            
+            <div class="promo__image">
+                <img src="img/photo-main.png" alt="">
+
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="about ">
+
+                <div>
+                    <section class="about-me">
+                        <h2 class="about__title">Никита Ефремов</h2>
+            
+                        <strong class="about__subtitle">Fullstack JavaScript Разработчик</strong>
+            
+                        <p class="text">Последние 3 года изучаю веб-разработку в качестве хобби. Основное внимание уделял фронтэнду, но и тем не менее осваивал смежные технологии работа с Wordpress, SEO.
+                            Всегда интересовал процесс разработки сайта с нуля до выхода в продакшн. Поэтому некоторые знания по верстке и JavaScript решил дополнить знанием баз данных и бэкендом. Больше всего понравилось работать с MVC-архитектурой и такими технологиями, как Django и NodeJS.
+                        </p>
+            
+                        <p class="text">Сейчас главной задачей вижу углубленное изучение JavaScript и его библиотек. Какое-то время изучал фреймворк Vue / Nuxt. В данный момент сконцентрировал внимание на Angular, так как нравится его подход к написанию клиентской части.</p>
+                    
+                        <p class="text">Надеюсь найти работу в сфере разработки и продолжить развиваться уже на более профессиональном уровне. А до этого времени продолжу писать небольшие проекты, осваивая что-то новое и интересное для себя.</p>
+                    </section>
+        
+                    <section class="my-skill">
+                        <h2>Мои навыки</h2>
+        
+                        <div>
+                            <table class="table" id="my-skills">
+                                <thead class="sr-only">
+                                    <tr>
+                                        <td>Название</td>
+                                        <td>Степень знания</td>
+                                    </tr>
+                                </thead>
+                                <tbody >
+                                    <tr class="progress-bar" data-progress="90">
+                                        <td class="progress-bar__title ">Кроссбраузерная и адаптивная верстка</td>
+                                        <td class="progress-bar__wrapper">
+                                            <div class="progress-bar__strip" style="width: 90%;"></div>
+                                            <span class="skills-value">80%</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="progress-bar" data-progress="15">
+                                        <td class="progress-bar__title ">JavaScript + ES6</td>
+                                        <td class="progress-bar__wrapper ">
+                                            <div class="progress-bar__strip" style="width: 70%;"></div>
+                                            <span class="skills-value">70%</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="progress-bar" data-progress="30">
+                                        <td class="progress-bar__title ">Angular</td>
+                                        <td class="progress-bar__wrapper ">
+                                            <div class="progress-bar__strip" style="width: 30%;"></div>
+                                            <span class="skills-value">25%</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="progress-bar" data-progress="55">
+                                        <td class="progress-bar__title ">Node JS + Express</td>
+                                        <td class="progress-bar__wrapper ">
+                                            <div class="progress-bar__strip" style="width: 30%;"></div>
+                                            <span class="skills-value">30%</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="progress-bar" data-progress="55">
+                                        <td class="progress-bar__title ">Python + Django</td>
+                                        <td class="progress-bar__wrapper ">
+                                            <div class="progress-bar__strip" style="width: 90%;"></div>
+                                            <span class="skills-value">90%</span>
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                            
+                        <a href="#" class="button button_primary">Скачать резюме</a>
+                    </section>
+                </div>
+    
+                <section class="details">
+                    <figure class="details__figure">
+                        <img class="details__photo" src="img/photo-details.png" alt="">
+                    </figure>
+
+                    <div class="details__content">
+                        <table class="details__info">
+                            <thead class="sr-only">
+                                <tr>
+                                    <td>Field</td>
+                                    <td>Value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Имя</td>
+                                    <td>Никита Ефремов</td>
+                                </tr>
+                                <tr>
+                                    <td>Дата рождения</td>
+                                    <td>13 Октября 1990</td>
+                                </tr>
+                                <tr>
+                                    <td>Адрес</td>
+                                    <td>Россия, Нижний Новгород</td>
+                                </tr>
+                                <tr>
+                                    <td>Телефон</td>
+                                    <td>+7 952 783 47 24</td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>heknt90@mail.ru</td>
+                                </tr>
+                            </tbody>
+                        </table>
+        
+                        <div class="social">
+                            <ul class="social__list list">
+                                <!-- <li class="social__item facebook-icon">
+                                    <a class="social__link" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item twitter-icon">
+                                    <a class="social__link" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li> -->
+                                <li class="social__item headhunter-icon">
+                                    <a class="social__link" href="#">
+                                        <span>hh</span>
+                                    </a>
+                                </li>
+                                <li class="social__item vkontakte-icon">
+                                    <a class="social__link" href="https://vk.com/heknt">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item github-icon">
+                                    <a class="social__link" href="https://github.com/heknt90">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </section>
+            </section>
+        </div>
+
+        <section class="resume section">
+            <div class="container">
+                <div class="heading-wrap">
+                    <h2 class="heading-h2">Resume </h2>
+                    <span class="resume__more">Education & Experience</span>
+                </div>
+                    
+                <p class="resume__info">We take pride in delivering Intelligent Designs and Engaging Experiences for clients all over the World. Massive Dynamic has over 10 years of experience in Design.</p>
+                
+                <div class="resume__chapters">
+                    <section class="resume__chapter">
+                        <h3 class="resume__heading">Education</h3>
+                        <ul class="resume__list list">
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/open-book.png" alt="">
+                            </li>
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/exam.png" alt="">
+                            </li>
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/mortarboard.png" alt="">
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="resume__chapter">
+                        <h3 class="resume__heading">Experience</h3>
+                        <ul class="resume__list list">
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/open-book.png" alt="">
+                            </li>
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/exam.png" alt="">
+                            </li>
+                            <li class="resume__item">
+                                <h4 class="resume__year">2012 - 2014</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                <img class="resume__icon" src="img/resume/icons/mortarboard.png" alt="">
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="portfolio container section">
+            <div class="heading-wrap">
+                <h2 class="heading-h2">Мои работы</h2>
+                <ul class="portfolio__navigation list">
+                    <li class="portfolio__link active">Верстка</li>
+                    <!-- <li class="portfolio__link active">Все</li>
+                    <li class="portfolio__link" ><a href="#">Верстка</a></li>
+                    <li class="portfolio__link" ><a href="#">JavaScript</a></li>
+                    <li class="portfolio__link" ><a href="#">Python</a></li> -->
+                </ul>
+            </div>
+            
+            <div class="portfolio__projects">
+                <div class="portfolio__group">
+                    <a href="https://github.com/heknt90/layout-portfolio-landing" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">Верстка лэндинга Резюме Web студии</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/layout 1.jpg" alt="">
+                    </a>
+                    <a href="https://github.com/heknt90/Technomart" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">Верстка интернет-магазина Technomart</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/layout 2.jpg" alt="">
+                    </a>
+                    <a href="https://github.com/heknt90/Sedona" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">Верстка сайта Sedona</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/layout 3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__group">
+                    <a href="https://github.com/heknt90/Gllacy/" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">Верстка магазина мороженного Gllacy</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/layout 4.jpg" alt="">
+                    </a>
+                    <a href="https://github.com/heknt90/nerds/" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">Верстка сайта дизайн студии Nerds</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/layout 5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__group">
+                    <a href="https://github.com/heknt90/mean-crm" class="portfolio__project">
+                        <!-- tmp -->
+                        <h4 class="portfolio__project-name">CRM "Newborn" MEAN Stack</h4>
+                        <!-- / tmp -->
+                        <img class="portfolio__cover" src="img/portfolio/projects/javascript 1.jpg" alt="">
+                    </a>
+                    <!-- <a href="#" class="portfolio__project">
+                        <h4 class="portfolio__project-name">Project Name</h4>
+                        <img class="portfolio__cover" src="img/portfolio/projects/project 6.jpg" alt="">
+                    </a> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <h2 class="sr-only">Мои клиенты</h2>
+
+            <div class="carousel__wrapper">
+                <ul class="carousel__list list" data-role="carousel">
+                    <li class="carousel__item active" data-role="carousel-item">
+                        <div class="clients__photo-wrap">
+                            <img class="clients__photo" src="img/clients/client-1.jpg" alt="Svetlin Denkov">
+                        </div>
+                        <h3 class="clients__name">Svetlin Denkov</h3>
+                        <p class="clients__feedback">1 Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
+                    </li>
+                    <li class="carousel__item" data-role="carousel-item">
+                        <div class="clients__photo-wrap">
+                            <img class="clients__photo" src="img/clients/client-1.jpg" alt="Svetlin Denkov">
+                        </div>
+                        <h3 class="clients__name">Svetlin Denkov</h3>
+                        <p class="clients__feedback">2 Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css. Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
+                    </li>
+                    <li class="carousel__item" data-role="carousel-item">
+                        <div class="clients__photo-wrap">
+                            <img class="clients__photo" src="img/clients/client-1.jpg" alt="Svetlin Denkov">
+                        </div>
+                        <h3 class="clients__name">Svetlin Denkov</h3>
+                        <p class="clients__feedback">3 Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <ol class="carousel__indicators list">
+                <li class="carousel__indicator carousel__indicator_active"></li>
+                <li class="carousel__indicator"></li>
+                <li class="carousel__indicator"></li>
+            </ol> -->
+
+            <ul class="partners__list list">
+                <li class="partners__item">
+                    <img src="img/clients//logos/dsp.png" alt="">
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="get-in-touch section container">
+            <div class="heading-wrap">
+                <h2 class="heading-h2">Свяжитесь со мной</h2>
+                <b>Возможность сотрудничества   </b>
+            </div>
+
+            
+            <div class="contacts__wrap">
+                
+                <form class="form contacts__form">
+                    <p class="contacts__description">Tempora similique excepturi obcaecati, maiores nostrum esse illo in soluta at saepe perspiciatis eos quasi laudantium sunt ad quaerat?</p>
+                    
+                    <p class="form__group">
+                        <input class="form__control" type="text" name="name" placeholder="Имя">
+                    </p>
+                    <p class="form__group">
+                        <input class="form__control" type="email" name="email" placeholder="Email">
+                    </p>
+                    <p class="form__group">
+                        <input class="form__control" type="text" name="subject" placeholder="Заголовок">
+                    </p>
+                    <p class="form__group">
+                        <textarea class="form__control form__textarea" name="message" placeholder="Сообщение"></textarea>
+                    </p>
+    
+                    <button class="button button_primary" type="submit">Отправить</button>
+                </form>
+    
+                <section class="contacts">
+                    <h3 class="sr-only">Контакты</h3>
+    
+                    <p class="contacts__item"><i class="fas fa-phone-alt contacts__icon"></i> +7 952 783 47 24</p>
+                    <p class="contacts__item"><i class="fas fa-envelope-open contacts__icon"></i> heknt90@mail.ru</p>
+                    <p class="contacts__item"><i class="fas fa-map-marker-alt contacts__icon"></i> Россия, Нижний Новгород</p>
+    
+                    <img class="contacts__map" src="img/map.jpg" alt="">
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Copyright 2020 © - Just working
+    </footer>
+
+    <script src="https://kit.fontawesome.com/067826a97e.js" crossorigin="anonymous"></script>
+    <script src="js/script.min.js" type="module"></script>
+</body>
+</html>
