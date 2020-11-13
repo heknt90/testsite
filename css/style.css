@@ -472,13 +472,20 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-  .resume__chapter + .resume__chapter {
-    margin-top: 50px; }
+  .resume__chapter {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: 1;
+        flex-basis: 1; }
+    .resume__chapter + .resume__chapter {
+      margin-top: 50px; }
   .resume__list {
     margin-left: 95px; }
   .resume__item {
     position: relative;
     margin-top: 53px; }
+  .resume__description {
+    margin-bottom: 20px; }
   .resume__icon {
     position: absolute;
     top: 0;
@@ -808,9 +815,11 @@ a {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; }
-      .resume__chapter + .resume__chapter {
-        margin-top: 0;
-        margin-left: 30px; }
+      .resume__chapter {
+        width: 50%; }
+        .resume__chapter + .resume__chapter {
+          margin-top: 0;
+          margin-left: 30px; }
     .contacts {
       margin-left: 100px; }
       .contacts__wrap {
